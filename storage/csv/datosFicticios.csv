@@ -1,0 +1,6 @@
+Nombre,PrimerApellido,SegundoApellido,FechaNacimiento,Telefono,Email,Observaciones
+Juan,Perez,Gomez,1980-05-15,123-456-7890,juan@example.com,Paciente regular
+Maria,Gonzalez,Lopez,1995-12-20,555-123-4567,maria@example.com,Alergia a los cacahuetes
+Carlos,Rodriguez,Jimenez,1988-08-10,987-654-3210,carlos@example.com,Control de presión arterial
+Sofia,Martinez,Ortega,1976-04-25,777-888-9999,sofia@example.com,Paciente de larga duración
+Luis,Fernandez,Perez,1990-11-30,111-222-3333,luis@example.com,Diabetes tipo 2

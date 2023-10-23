@@ -2,6 +2,10 @@
 
 @section('content')
 
-<h1>Pagina inicial donde aparecen las dos opciones principales</h1>
+<h1>Selecciona una opcion</h1>
+<div class="menu">
+    <a href="{{ url('/consulta-paciente') }}" class="btn btn-primary">Consultar Paciente</a>
+    <a href="{{ url('/nuevo-paciente') }}" class="btn btn-primary">Crear Nuevo Paciente</a>
+</div>
 
 @endsection

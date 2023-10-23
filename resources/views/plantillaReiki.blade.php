@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <!--<script src="{{ asset('js/bootstrap.min.js') }}"></script>-->
     <title>Mi aplicacion</title>
 </head>
 <body>

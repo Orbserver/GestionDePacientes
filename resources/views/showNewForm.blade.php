@@ -19,11 +19,11 @@
                     </div>
                     <div>
                         <label for="surname1">Primer apeldivdo:</label>
-                        <input type="text" id="surname1" name="surname1" placeholder="Primer apeldivdo">
+                        <input type="text" id="surname1" name="surname1" placeholder="Primer apellido">
                     </div>
                     <div>
                         <label for="surname2">Segundo apeldivdo:</label>
-                        <input type="text" id="surname2" name="surname2" placeholder="Segundo apeldivdo">
+                        <input type="text" id="surname2" name="surname2" placeholder="Segundo apellido">
                     </div>
                     <div>
                         <label for="birthdate">Año de nacimiento:</label>

@@ -4,7 +4,7 @@
 
 <div>
     <h1>Consulta de pacientes</h1>
-    <form action="/consulta-paciente" method="POST" name=newPaciente target="" onsubmit="PForm(); return false;">
+    <form action="/consulta-paciente" method="POST" name=consultaPaciente onsubmit="PForm(); return false;">
         @csrf {{-- Token CSRF para seguridad --}}
         <script src="{{ asset('js/sanitize.js') }}"></script>
         <div class="form-group">
@@ -30,10 +30,6 @@
         <div class="form-group">
             <label for="email">Correo electrónico:</label>
             <input type="email" class="form-control" id="email" name="email" placeholder="nombre@correo.com">
-        </div>
-        <div class="form-group">
-            <label for="otros_detalles">Otros detalles:</label>
-            <textarea class="form-control" id="otros_detalles" name="otros_detalles" placeholder="Alergias, condiciones médicas, etc."></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Consultar</button>
 </div>

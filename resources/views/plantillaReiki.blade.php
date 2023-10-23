@@ -10,12 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>nombre de la barra header</h1>
-        <nav>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </nav>
+        <a href="{{ url('/') }}">Consultas</a>
     </header>
 
     <content>

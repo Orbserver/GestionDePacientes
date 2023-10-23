@@ -20,7 +20,7 @@ class Paciente extends Model
         'email',
     ];
 
-    protected $rules = [
+    public $rules = [
         'nombre' => 'required|string|max:255',
         'primer_apellido' => 'required|string|max:255',
         'segundo_apellido' => 'nullable|string|max:255',

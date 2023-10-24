@@ -1,6 +1,6 @@
 # Aplicación Web GestionDePacientes
 
-PacientesReiki es una aplicación web desarrollada utilizando el framework Laravel para la lógica del lado del servidor y Vite para el frontend. Está diseñada para gestionar datos de pacientes con fines médicos, permitiendo a los profesionales de la salud recopilar, almacenar y recuperar información de pacientes de manera eficiente.
+GestionDePacientes es una aplicación web desarrollada utilizando el framework Laravel para la lógica del lado del servidor y Vite para el frontend. Está diseñada para gestionar datos de pacientes con fines médicos, permitiendo a los profesionales de la salud recopilar, almacenar y recuperar información de pacientes de manera eficiente.
 
 ## Características
 

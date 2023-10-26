@@ -65,4 +65,3 @@ Ahora que has configurado tu entorno de desarrollo y estás listo para contribui
 5. Abre una solicitud de extracción (pull request) detallando tus cambios.
 
 6. Los mantenedores del proyecto revisarán tu pull request y, si es necesario, proporcionarán comentarios o sugerencias antes de fusionarlo.
-```

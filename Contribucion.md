@@ -1,6 +1,6 @@
 ## Requisitos Técnicos
 
-Para contribuir al proyecto "PacientesReiki", asegúrate de cumplir con los siguientes requisitos técnicos en tu entorno de desarrollo:
+Para contribuir al proyecto "SetPatientCare", asegúrate de cumplir con los siguientes requisitos técnicos en tu entorno de desarrollo:
 
 1. **Sistema Operativo**: El proyecto se ha desarrollado principalmente en Windows. Se recomienda utilizar este entorno para mayor compatibilidad.
 
@@ -8,7 +8,7 @@ Para contribuir al proyecto "PacientesReiki", asegúrate de cumplir con los sigu
 
 3. **PHP**: Se requiere PHP 8.2 o superior. Asegúrate de tener esta versión instalada y habilitada en tu servidor.
 
-4. **Base de Datos**: El proyecto utiliza SQL Server como sistema de gestión de bases de datos. Asegúrate de tener una instancia de SQL Server configurada y lista para su uso.
+4. **Base de Datos**: El proyecto utiliza PostgreSQL como sistema de gestión de bases de datos. Asegúrate de tener una instancia de PostgreSQL configurada y lista para su uso.
 
 5. **Composer**: Composer es una herramienta esencial para administrar las dependencias de PHP. Asegúrate de tener Composer instalado en tu sistema.
 
@@ -23,7 +23,7 @@ Una vez que hayas confirmado que cumples con los requisitos técnicos, sigue est
 1. **Clona el Repositorio**: Utiliza Git para clonar este repositorio en tu entorno de desarrollo local.
 
    ```bash
-   git clone https://github.com/Orbserver/PacientesReiki.git
+   git clone https://github.com/TuUsuario/SetPatientCare.git
    ```
 
 2. **Configuración de Variables de Entorno**: Copia el archivo `.env.example` y cámbiale el nombre a `.env`. Luego, configura las variables de entorno, como la conexión a la base de datos y la URL de la aplicación.
@@ -50,7 +50,7 @@ Una vez que hayas confirmado que cumples con los requisitos técnicos, sigue est
 
 Ahora que has configurado tu entorno de desarrollo y estás listo para contribuir, sigue estos pasos:
 
-1. Crea una rama (branch) a partir de la rama `master` para tu trabajo:
+1. Crea una rama (branch) a partir de la rama `main` para tu trabajo:
 
    ```bash
    git checkout -b mi-nueva-caracteristica
@@ -65,3 +65,4 @@ Ahora que has configurado tu entorno de desarrollo y estás listo para contribui
 5. Abre una solicitud de extracción (pull request) detallando tus cambios.
 
 6. Los mantenedores del proyecto revisarán tu pull request y, si es necesario, proporcionarán comentarios o sugerencias antes de fusionarlo.
+```

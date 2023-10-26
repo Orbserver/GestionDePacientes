@@ -1,6 +1,6 @@
-# GestionDePacientes Web Application
+# SetPatientCare Web Application
 
-PacientesReiki is a web application developed using the Laravel framework for server-side logic and Vite for the frontend. It is designed to manage patient data for medical purposes, allowing healthcare professionals to efficiently collect, store, and retrieve patient information.
+SetPatientCare is a web application developed using the Laravel framework for server-side logic and Vite for the frontend. It is designed to manage patient data for medical purposes, allowing healthcare professionals to efficiently collect, store, and retrieve patient information.
 
 ## Features
 
@@ -12,7 +12,13 @@ PacientesReiki is a web application developed using the Laravel framework for se
 
 - **Data Export**: Export patient data as CSV files for further analysis and reporting.
 
-- **Secure and Scalable**: Built on Laravel, PacientesReiki offers robust security measures and can be easily scaled to meet growing data needs.
+- **Appointment Scheduling**: Schedule appointments for patients and manage their appointment history.
+
+- **Prescription Management**: Manage and track patient prescriptions and medications.
+
+- **Billing and Invoicing**: Generate bills and invoices for patient services and keep track of payments.
+
+- **Secure and Scalable**: Built on Laravel, SetPatientCare offers robust security measures and can be easily scaled to meet growing data needs.
 
 ## Technologies Used
 
@@ -22,11 +28,11 @@ PacientesReiki is a web application developed using the Laravel framework for se
 
 - **Bootstrap**: Bootstrap is used for responsive design and user interface components.
 
-- **Vue.js**: PacientesReiki can be enhanced with Vue.js for interactive and dynamic frontend features if desired.
+- **Vue.js**: SetPatientCare can be enhanced with Vue.js for interactive and dynamic frontend features if desired.
 
 ## Installation
 
-To install and run PacientesReiki locally, follow these steps:
+To install and run SetPatientCare locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Run `composer install` to install PHP dependencies.
@@ -42,13 +48,14 @@ To install and run PacientesReiki locally, follow these steps:
 - Register new patients by filling out the provided forms.
 - Search for existing patients and review their records.
 - Export patient data for reporting purposes.
+- Schedule appointments and manage prescription, billing, and invoicing information.
 
 ## Contribution
 
-We welcome contributions to enhance PacientesReiki. Feel free to open issues, submit pull requests, or provide feedback.
+We welcome contributions to enhance SetPatientCare. Feel free to open issues, submit pull requests, or provide feedback.
 
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE). You are free to use and modify the code for your needs.
 
-Enjoy using GestionDePacientes for efficient patient data management!
+Enjoy using SetPatientCare for efficient patient data management!

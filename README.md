@@ -1,4 +1,4 @@
-# PacientesReiki Web Application
+# GestionDePacientes Web Application
 
 PacientesReiki is a web application developed using the Laravel framework for server-side logic and Vite for the frontend. It is designed to manage patient data for medical purposes, allowing healthcare professionals to efficiently collect, store, and retrieve patient information.
 

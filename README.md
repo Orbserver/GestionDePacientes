@@ -51,4 +51,4 @@ We welcome contributions to enhance PacientesReiki. Feel free to open issues, su
 
 This project is open-source and available under the [MIT License](LICENSE). You are free to use and modify the code for your needs.
 
-Enjoy using PacientesReiki for efficient patient data management!
+Enjoy using GestionDePacientes for efficient patient data management!

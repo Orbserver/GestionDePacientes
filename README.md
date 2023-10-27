@@ -1,3 +1,7 @@
+## Project Under Construction
+
+**Note:** This project is currently under construction, and some or all of its features may not be available yet.
+
 # SetPatientCare Web Application
 
 SetPatientCare is a web application developed using the Laravel framework for server-side logic and Vite for the frontend. It is designed to manage patient data for medical purposes, allowing healthcare professionals to efficiently collect, store, and retrieve patient information.

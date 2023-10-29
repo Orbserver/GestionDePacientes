@@ -19,7 +19,7 @@ class PacienteController extends Controller
     }
 
     //Procesamiento de consulta y presentacion de los datos
-    public function consultarPaciente(request $request) {
+    public function consultarPaciente(Request $request) {
         $request->validate([
             'nombre' => 'required_without_all:primer_apellido,segundo_apellido,fecha_nacimiento,telefono|string|max:255',
             'primer_apellido' => 'required_without_all:nombre,segundo_apellido,fecha_nacimiento,telefono|string|max:255',
@@ -29,7 +29,7 @@ class PacienteController extends Controller
         ]);
         //Logica para procesar la consulta y mostrar resultados
         //Se puede acceder a los datos del formulario usando $request
-        return view('consultar_paciente');
+        return view('resultados_consulta');
     }
 
     //Formulario de nuevo paciente

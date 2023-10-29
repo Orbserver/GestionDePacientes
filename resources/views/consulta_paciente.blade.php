@@ -4,7 +4,7 @@
 
 <div>
     <h1>Consulta de pacientes</h1>
-    <form action="/consulta-paciente" method="POST" name=consultaPaciente onsubmit="PForm(); return false;">
+    <form action="{{ url('consulta-paciente') }}" method="POST" name=consultaPaciente onsubmit="PForm(); return true;">
         @csrf {{-- Token CSRF para seguridad --}}
         <script src="{{ asset('js/sanitize.js') }}"></script>
         <div class="form-group">

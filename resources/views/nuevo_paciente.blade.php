@@ -3,7 +3,7 @@
 @section('content')
     <div>
         <h1>Introducir nuevo paciente</h1>
-        <form action="{{ url('/consulta-paciente') }}" method="POST" name=nuevoPaciente onsubmit="PForm(); return false;">
+        <form action="{{ url('/resultado-nuevo') }}" method="POST" name=nuevoPaciente onsubmit="PForm(); return false;">
             @csrf {{-- Token CSRF para seguridad --}}
             <script src="{{ asset('js/sanitize.js') }}"></script>
             <div class="form-group">

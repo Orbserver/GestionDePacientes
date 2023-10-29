@@ -19,7 +19,7 @@ class PacienteController extends Controller
     }
 
     //Procesamiento de consulta y presentacion de los datos
-    public function resultadosConsulta(Request $request) {
+    public function procesarConsulta(Request $request) {
         $request->validate([
             'nombre' => 'required_without_all:primer_apellido,segundo_apellido,fecha_nacimiento,telefono|string|max:255',
             'primer_apellido' => 'required_without_all:nombre,segundo_apellido,fecha_nacimiento,telefono|string|max:255',
@@ -53,6 +53,12 @@ class PacienteController extends Controller
         $resultados = $query->get();
 
         //Se puede acceder a los datos del formulario usando $request
+        return redirect('/resultados-consulta')->with('resultados', $resultados);
+    }
+
+    public function resultadosConsulta() {
+        $resultados=session('resultados', collect());
+
         return view('resultados_consulta', ['resultados' => $resultados]);
     }
 
@@ -62,11 +68,15 @@ class PacienteController extends Controller
     }
 
     //Procesamiento de creacion de nuevo paciente
-    public function guardarNuevoPaciente(request $request) {
+    public function procesarNuevo(request $request) {
         $request->validate(Paciente::$rules);
         //Logica para procesar la creacion de un nuevo paciente
         //Puedes acceder a los datos del formulario usando $request
         //Si se guarda con exito, muestra un mensaje de exito; de lo contrario muestra un mensaje de error
-        return view('resultado_creacion');
+        return redirect('resultado-nuevo')->with('');
+    }
+
+    public function resultadoNuevo() {
+        return view('resultado_nuevo');
     }
 }

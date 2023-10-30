@@ -1,4 +1,4 @@
-@extends('plantillaReiki')
+@extends('plantillaPrincipal')
 
 @section('content')
 
